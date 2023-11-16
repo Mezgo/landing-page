@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid firebrick;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin:auto;
+    background-color: violet;
+    flex-flow: column;
+}
+
+.header{
+    background-color: #1f2937;
+}
