@@ -9,14 +9,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-flow: column;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 .container {
     width: 100%;
     /* max-width: 1200px; */
     display: flex;
-    background-color: violet;
     flex-flow: column;
     align-items: center;
 }
@@ -152,3 +151,98 @@ body {
 /* section 3 */
 
 
+.quote {
+    width: 100%;
+    padding: 10px 10% 50px 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    width: 60%;
+    padding: 70px 50px 70px 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 500;
+}
+
+
+/* section 4 */
+
+.call-to-action {
+    width: 100%;
+    padding: 70px 200px 70px 140px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    width: 90%;
+    padding: 20px 70px 20px 70px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.call-to-action-text-container {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.call-to-action-text-container span {
+    width: 100%;
+}
+
+.call-to-action-button-container {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-button-container .button {
+    width: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+
+/* section 5 */
+
+
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+
+/* hovers */
+
+
+.button:hover{
+    cursor: pointer;
+}
